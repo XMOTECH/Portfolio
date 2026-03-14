@@ -1,0 +1,16 @@
+<section class="hero">
+  <div class="hero__text">
+    <p class="hero__tagline">{{ tagline() }} —</p>
+    <h1 class="hero__name">{{ name() }}</h1>
+    <h2 class="hero__role">{{ role() }}</h2>
+    <p class="hero__bio">{{ bio() }}</p>
+    <div class="hero__cta">
+      <a routerLink="/projects" class="btn btn--primary">Voir mes projets</a>
+      <a routerLink="/contact"  class="btn btn--outline">Me contacter</a>
+    </div>
+  </div>
+
+  <div class="hero__terminal">
+    <app-terminal />
+  </div>
+</section>

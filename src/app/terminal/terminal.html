@@ -1,0 +1,30 @@
+<div class="terminal" (keydown)="onKeydown($event)" tabindex="0">
+
+  <div class="terminal__bar">
+    <span class="dot dot--red"></span>
+    <span class="dot dot--yellow"></span>
+    <span class="dot dot--green"></span>
+    <span class="terminal__title">~/software-growe</span>
+  </div>
+
+  <div class="terminal__body">
+
+    @for (line of lines(); track $index) {
+      <div class="terminal__line">
+        <span class="terminal__text terminal__text--{{ line.color }}">
+          {{ line.text }}
+        </span>
+      </div>
+    }
+
+    <!-- ligne active avec input en cours -->
+    <div class="terminal__line">
+      <span class="terminal__text terminal__text--prompt">$ </span>
+      <span class="terminal__text terminal__text--cyan">{{ currentInput() }}</span>
+      <span class="terminal__cursor"
+            [class.terminal__cursor--hidden]="!cursorVisible()">▋</span>
+    </div>
+
+  </div>
+
+</div>
