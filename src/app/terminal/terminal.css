@@ -1,6 +1,6 @@
 .terminal {
-  background: #020d1a;
-  border: 1px solid #1e3a5f;
+  background: #020617;
+  border: 1px solid #1e293b;
   border-radius: 10px;
   overflow: hidden;
   width: 100%;
@@ -8,7 +8,7 @@
 }
 
 .terminal__bar {
-  background: #0d1f3c;
+  background: #0f172a;
   padding: 10px 14px;
   display: flex;
   align-items: center;
@@ -22,12 +22,12 @@
   display: inline-block;
 }
 
-.dot--red    { background: #ef4444; }
-.dot--yellow { background: #f59e0b; }
-.dot--green  { background: #22c55e; }
+.dot--red    { background: #64748b; }
+.dot--yellow { background: #94a3b8; }
+.dot--green  { background: #cbd5e1; }
 
 .terminal__title {
-  color: #475569;
+  color: #94a3b8;
   font-size: 12px;
   font-family: monospace;
   margin-left: 8px;
@@ -47,16 +47,16 @@
 }
 
 .terminal__prompt {
-  color: #475569;
+  color: #94a3b8;
 }
 
-.terminal__text--prompt { color: #475569; }
-.terminal__text--cyan   { color: #38bdf8; }
-.terminal__text--green  { color: #22c55e; }
-.terminal__text--amber  { color: #f59e0b; }
+.terminal__text--prompt { color: #94a3b8; }
+.terminal__text--cyan   { color: #e2e8f0; }
+.terminal__text--green  { color: #cbd5e1; }
+.terminal__text--amber  { color: #94a3b8; }
 
 .terminal__cursor {
-  color: #38bdf8;
+  color: #ffffff;
   transition: opacity 0.1s;
 }
 
@@ -64,9 +64,9 @@
   opacity: 0;
 }
 .terminal:focus {
-  outline: 1px solid #38bdf8;
+  outline: 1px solid #475569;
   outline-offset: 2px;
 }
 
-.terminal__text--prompt { color: #475569; }
-.terminal__text--red    { color: #ef4444; }
+.terminal__text--prompt { color: #94a3b8; }
+.terminal__text--red    { color: #64748b; }

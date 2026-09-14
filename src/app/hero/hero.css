@@ -1,5 +1,5 @@
 .hero {
-  background: #0a1628;
+  background: #0f172a;
   min-height: calc(100vh - 56px);
   display: flex;
   align-items: center;
@@ -12,7 +12,7 @@
 }
 
 .hero__tagline {
-  color: #38bdf8;
+  color: #94a3b8;
   font-family: monospace;
   font-size: 12px;
   letter-spacing: 3px;
@@ -21,7 +21,7 @@
 }
 
 .hero__name {
-  color: #e2e8f0;
+  color: #ffffff;
   font-size: 36px;
   font-weight: 500;
   margin: 0 0 8px;
@@ -29,14 +29,14 @@
 }
 
 .hero__role {
-  color: #38bdf8;
+  color: #e2e8f0;
   font-size: 16px;
   font-weight: 400;
   margin: 0 0 20px;
 }
 
 .hero__bio {
-  color: #475569;
+  color: #94a3b8;
   font-size: 14px;
   line-height: 1.8;
   max-width: 420px;
@@ -59,16 +59,16 @@
 }
 
 .btn--primary {
-  background: #38bdf8;
-  color: #0a1628;
+  background: #ffffff;
+  color: #0f172a;
   font-weight: 500;
   border: none;
 }
 
 .btn--outline {
   background: transparent;
-  color: #38bdf8;
-  border: 1px solid #38bdf8;
+  color: #ffffff;
+  border: 1px solid #334155;
 }
 
 .btn:hover {
@@ -78,11 +78,11 @@
 .hero__terminal {
   flex: 1;
   max-width: 400px;
-  color: #475569;
+  color: #94a3b8;
   font-family: monospace;
   font-size: 13px;
-  border: 1px solid #1e3a5f;
+  border: 1px solid #1e293b;
   border-radius: 10px;
   padding: 20px;
-  background: #020d1a;
+  background: #020617;
 }
